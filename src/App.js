@@ -1,9 +1,14 @@
+import Todo from './components/Todo'
 
 
 function App() {
   return (
     <div className="App">
-   hello
+      <Todo text="Hello"/>
+      <Todo text="Goodbye" />
+      <Todo text="Later"/>
+   
+
     </div>
   );
 }
